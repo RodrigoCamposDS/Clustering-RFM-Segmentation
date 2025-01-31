@@ -107,7 +107,7 @@ A visualização 3D permite identificar a separação entre os grupos no espaço
 #### **Clusters em 2D (Recency vs. Frequency)**
 Este gráfico destaca a distribuição dos clientes em um plano **Recency vs. Frequency**, reforçando os padrões de compra.
 
-![Clusters 2D](images/Clusters_2D.png)
+![Clusters 2D](images/Clusters_2D .png)
 
 #### **Clusters Baseados em Ângulos**
 Aqui, os clusters são visualizados em uma projeção polar, explorando diferenças angulares entre os grupos.
