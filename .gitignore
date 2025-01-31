@@ -1,0 +1,15 @@
+echo "
+# Ignorar arquivos grandes e de ambiente virtual
+venv/
+__pycache__/
+*.csv
+*.parquet
+*.npy
+*.pkl
+*.log
+.DS_Store
+
+# Ignorar diretórios do Spark
+pyspark/jars/
+pyspark/pandas/spark/
+" >> .gitignore
