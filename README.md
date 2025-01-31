@@ -102,22 +102,22 @@ Os **clusters identificados** podem ser usados para ações estratégicas, como:
 #### **Clusters em 3D (Fuzzy Clustering)**
 A visualização 3D permite identificar a separação entre os grupos no espaço **Recency, Frequency e Monetary**.
 
-![Clusters 3D](Clusters_3D.png)
+![Clusters 3D](images/Clusters_3D.png)
 
 #### **Clusters em 2D (Recency vs. Frequency)**
 Este gráfico destaca a distribuição dos clientes em um plano **Recency vs. Frequency**, reforçando os padrões de compra.
 
-![Clusters 2D](Clusters_2D.png)
+![Clusters 2D](images/Clusters_2D.png)
 
 #### **Clusters Baseados em Ângulos**
 Aqui, os clusters são visualizados em uma projeção polar, explorando diferenças angulares entre os grupos.
 
-![Clusters Ângulos](Clusters_ang.png)
+![Clusters Ângulos](images/Clusters_ang.png)
 
 #### **Mapa de Densidade - Recency vs. Frequency**
 A análise de densidade revela a concentração de clientes em determinadas áreas do espaço RFM.
 
-![Densidade](Densidade.png)
+![Densidade](images/Densidade.png)
 
 A segmentação permite **ações personalizadas**, como campanhas de retenção, ofertas exclusivas e estratégias de fidelização. A identificação dos clusters possibilita que as equipes de marketing direcionem estratégias específicas para cada grupo de clientes.
 
