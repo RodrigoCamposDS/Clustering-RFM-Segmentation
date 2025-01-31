@@ -117,7 +117,7 @@ Aqui, os clusters são visualizados em uma projeção polar, explorando diferen�
 #### **Mapa de Densidade - Recency vs. Frequency**
 A análise de densidade revela a concentração de clientes em determinadas áreas do espaço RFM.
 
-![Densidade](densidade.png)
+![Densidade](Densidade.png)
 
 A segmentação permite **ações personalizadas**, como campanhas de retenção, ofertas exclusivas e estratégias de fidelização. A identificação dos clusters possibilita que as equipes de marketing direcionem estratégias específicas para cada grupo de clientes.
 
