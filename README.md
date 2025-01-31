@@ -1,6 +1,6 @@
 # RFM Clustering - Segmentação de Clientes
 
-Este projeto realiza a **segmentação de clientes** utilizando a análise **RFM (Recency, Frequency, Monetary)** combinada com **técnicas de clusterização**, incluindo **Fuzzy C-Means e K-Means**. O objetivo é identificar diferentes perfis de clientes para auxiliar estratégias de marketing e retenção.
+Este projeto realiza a **segmentação de clientes** utilizando a análise **RFM (Recency, Frequency, Monetary)** combinada com **técnicas de clusterização**, incluindo **Fuzzy C-Means**. O objetivo é identificar diferentes perfis de clientes para auxiliar estratégias de marketing e retenção.
 
 ## 1. Visão Geral
 
@@ -18,17 +18,17 @@ Após o cálculo das métricas RFM, foram aplicadas técnicas de **redução de 
 
 ```
 project/
-│── notebooks/               # Notebooks do Jupyter com as etapas da análise
-│   ├── 01-data-preprocessing.ipynb  # Carregamento e tratamento de dados
+│── notebooks/                        # Notebooks do Jupyter com as etapas da análise
+│   ├── 01-data-preprocessing.ipynb   # Carregamento e tratamento de dados
 │   ├── 02-feature-engineering.ipynb  # Criação das variáveis RFM
-│   ├── 03-model-cluster.ipynb  # Aplicação de modelos de clusterização
-│   ├── 04-evaluation.ipynb  # Avaliação e visualização dos clusters
-│── src/                     # Código-fonte do projeto
-│   ├── data/                # Dados brutos e processados
-│   ├── models/              # Modelos treinados
-│   ├── utils/               # Funções auxiliares
-│── requirements.txt         # Dependências do projeto
-│── README.md                # Documentação do projeto
+│   ├── 03-model-cluster.ipynb        # Aplicação de modelos de clusterização
+│   ├── 04-evaluation.ipynb           # Avaliação e visualização dos clusters
+│── src/                              # Código-fonte do projeto
+│   ├── data/                         # Dados brutos e processados
+│   ├── models/                       # Modelos treinados
+│   ├── utils/                        # Funções auxiliares
+│── requirements.txt                  # Dependências do projeto
+│── README.md                         # Documentação do projeto
 ```
 
 ---
@@ -47,7 +47,7 @@ project/
 
 ### 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/Clustering-RFM-Segmentation.git
+git clone https://github.com/RodrigoCamposDS/Clustering-RFM-Segmentation.git
 cd Clustering-RFM-Segmentation
 ```
 
@@ -97,6 +97,8 @@ Os **clusters identificados** podem ser usados para ações estratégicas, como:
 - **Clientes Inativos (Azul)**: Não realizam compras há muito tempo.
 - **Clientes Estáveis (Laranja)**: Compram com consistência, mas sem valores extremos.
 
+Abaixo, são apresentados os gráficos que representam a distribuição dos clientes em diferentes perspectivas.
+
 ### **Visualizações dos Clusters**
 
 #### **Clusters em 3D (Fuzzy Clustering)**
@@ -107,12 +109,17 @@ A visualização 3D permite identificar a separação entre os grupos no espaço
 #### **Clusters em 2D (Recency vs. Frequency)**
 Este gráfico destaca a distribuição dos clientes em um plano **Recency vs. Frequency**, reforçando os padrões de compra.
 
-![Clusters 2D](images/Clusters_2Dpng)
+![Clusters 2D](images/Clusters_2D.png)
 
 #### **Clusters Baseados em Ângulos**
 Aqui, os clusters são visualizados em uma projeção polar, explorando diferenças angulares entre os grupos.
 
 ![Clusters Ângulos](images/Clusters_ang.png)
+
+#### **Distribuição de Compras por Cluster - Violinplot**
+O gráfico de violino (Violinplot) apresenta a distribuição das compras em cada cluster, evidenciando a variação dentro de cada grupo.
+
+![Violinplot](images/Violinplot.png)
 
 #### **Mapa de Densidade - Recency vs. Frequency**
 A análise de densidade revela a concentração de clientes em determinadas áreas do espaço RFM.
@@ -136,6 +143,5 @@ A segmentação permite **ações personalizadas**, como campanhas de retenção
 Para dúvidas ou sugestões, entre em contato:
 
 - **Nome**: Rodrigo Campos
-- **GitHub**: [RodrigoCamposDS](https://github.com/RodrigoCamposDS)
-- **LinkedIn**: [linkedin.com/in/seu-perfil](https://linkedin.com/in/seu-perfil)
+- **LinkedIn**: [linkedin.com/in/seu-perfil](https://www.linkedin.com/in/rodrigo-barcelos-campos/)
 
