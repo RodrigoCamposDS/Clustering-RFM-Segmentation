@@ -26,7 +26,9 @@ project/
 │── src/                              # Código-fonte do projeto
 │   ├── data/                         # Dados brutos e processados
 │   ├── models/                       # Modelos treinados
+|   ├── features/                     # Funções relcionadas as features
 │   ├── utils/                        # Funções auxiliares
+|   ├── visualizations/               # Funções de plots e visualizações
 │── requirements.txt                  # Dependências do projeto
 │── README.md                         # Documentação do projeto
 ```
