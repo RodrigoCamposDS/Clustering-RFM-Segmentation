@@ -19,7 +19,7 @@ Após o cálculo das métricas RFM, foram aplicadas técnicas de **redução de 
 ```
 project/
 │── notebooks/                        # Notebooks do Jupyter com as etapas da análise
-│   ├── 01-data-preprocessing.ipynb   # Carregamento e tratamento de dados
+│   ├── 01-data-exploration.ipynb   # Carregamento e tratamento de dados
 │   ├── 02-feature-engineering.ipynb  # Criação das variáveis RFM
 │   ├── 03-model-cluster.ipynb        # Aplicação de modelos de clusterização
 │   ├── 04-evaluation.ipynb           # Avaliação e visualização dos clusters
